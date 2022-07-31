@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(14, 66, 14);
+}
+#title {
+    color: yellow;
+    font-size: 9vh;
+    text-align: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+#question {
+    font-size: 6vh;
+    color: white;
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+
+}
+#cards {
+    font-size: 4vh;
+    color: grey;
+    text-align: center;
+    margin-right: 40vh;
+    font-family: 'Square Peg', cursive;
+
+}
+#sum {
+    color: grey;
+    font-size: 4vh;
+    text-align: center;
+    margin-right: 39vh;
+    font-family: 'Square Peg', cursive;
+
+}
+#startButton {
+    font-size: 7vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border-radius: 20px;
+}
+#divButton {
+    text-align: center;
+}
+#newCard {
+    font-size: 7vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border-radius: 20px;
+    display: none;
+}
+#foldButton {
+    font-size: 7vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border-radius: 20px;
+    display: none;
+}
+#dealer {
+    color: grey;
+    font-size: 4vh;
+    text-align: center;
+    margin-right: 39vh;
+    font-family: 'Square Peg', cursive;
+}
+#newGame {
+    font-size: 7vh;
+    font-family: 'Mochiy Pop One', sans-serif;
+    border-radius: 20px;
+    display: none;
+}
