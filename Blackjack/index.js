@@ -16,7 +16,17 @@ let newGameButton = document.getElementById("newGame");
 
 
 function getRandomCard() {
-    return Math.floor(Math.random()*13) + 1;
+    let random = Math.floor(Math.random() * 13) + 1;
+    if(!allCards.includes(random)) {
+        allCards.push(random);
+        return random
+    } else {
+        if(allCards.length < 13) {
+            return getRandomCard();
+        } else {
+            return false;
+        }
+    }
 }
 function getRandomDealer() {
     return Math.floor(Math.random()*8) + 14;
@@ -61,7 +71,6 @@ summary.textContent = "Sum: " + sum;
 
 function newCard() {
     let thirdCard = getRandomCard();
-    allCards.push(thirdCard);
     sum += thirdCard;
     summary.textContent = "Sum: " + sum; 
     renderGame();
